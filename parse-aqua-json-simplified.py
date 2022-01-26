@@ -2,11 +2,8 @@
 # Basic Python3 program to parse Aqua Security json scans into an Excel-friendly format.
 # Copyright 2022 Sean Berry, BMC Software
 # 
-# importing the module
 import json
-
 import glob
-
 import sys
 
 list_of_files = glob.glob("./lp*_*")
